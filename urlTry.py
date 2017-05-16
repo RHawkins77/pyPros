@@ -7,9 +7,15 @@ time.sleep(3)
 print(browser.title) 
 ids = browser.find_elements_by_class_name('hacktivity__wrapper')
 num = 0
-for ii in ids:
 
+for ii in ids:
     num = num + 1
+
+
+
+
+
+
 print(num)     
 browser.quit() 
 
