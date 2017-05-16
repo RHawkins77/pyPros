@@ -10,7 +10,7 @@ browser.quit()
 
 
 
-#username = "ryanhawkins@u.boisestate.edu&password=Avalanche77"
+#username = "<USERNAME>&password=<PASSWORD>"
 
 #with session() as c:
 #    c.post('https://hackerone.com/users/sign_in', data=username)
