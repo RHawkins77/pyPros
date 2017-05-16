@@ -19,6 +19,7 @@ for ii in ids:
 
 while myButton.is_enabled():
     myButton.click()
+    myButton = browser.find_element_by_css_selector('button.button:nth-child(2)')
     time.sleep(3)
     ids2 = browser.find_elements_by_class_name('hacktivity__wrapper')
     for ii in ids2:

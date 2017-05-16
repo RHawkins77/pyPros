@@ -78,3 +78,28 @@ Full stack:
 1494971894201	Marionette	INFO	Listening on port 32957
 1494971894321	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: http://feeds.delicious.com/v2/js/firebugnews?count=10&title=&sort=date&extended, line 1: SyntaxError: expected expression, got '<'
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1494972766003	geckodriver	INFO	Listening on 127.0.0.1:53231
+1494972766890	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.r9Sw06YRfnqp
+1494972766891	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1494972767157	geckodriver::marionette	INFO	Connecting to Marionette on localhost:36373
+1494972770939	Marionette	INFO	Listening on port 36373
+1494972771231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1494973407297	geckodriver	INFO	Listening on 127.0.0.1:56673
+1494973408293	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.w8zdarI78wwe
+1494973408296	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1494973408308	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38043
+1494973411247	Marionette	INFO	Listening on port 38043
+1494973411461	Marionette	WARN	TLS certificate errors will be ignored for this session
+Warning: An attempt was made to write to the DEVTOOLS_COPY_UNIQUE_CSS_SELECTOR_OPENED_COUNT histogram, which is not defined in Histograms.json
+1494973496415	geckodriver	INFO	Listening on 127.0.0.1:47531
+1494973497417	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.Af9hBot4Jo4N
+1494973497418	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1494973497422	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34353
+1494973500130	Marionette	INFO	Listening on port 34353
+1494973500259	Marionette	WARN	TLS certificate errors will be ignored for this session
