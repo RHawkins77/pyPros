@@ -11,7 +11,7 @@ browser = webdriver.Firefox()
 #get hackerone disclosed hacktivity page
 browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=1&range=forever')  
 #wait for 3 seconds for page to load
-time.sleep(1.5)
+time.sleep(2)
 #print pages title  
 print(browser.title)
  
@@ -23,7 +23,7 @@ while True:
     for ii in ids:
         num = num + 1
     myButton.click()     
-    time.sleep(1.5)
+    time.sleep(2)
     try:	    
 	myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
         ids2 = myButton.find_elements_by_class_name('hacktivity__wrapper')
