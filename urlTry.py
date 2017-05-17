@@ -9,7 +9,7 @@ import time
 #open Web Browser
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
-browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=137&range=forever')  
+browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=1&range=forever')  
 #wait for 3 seconds for page to load
 time.sleep(1.5)
 #print pages title  
