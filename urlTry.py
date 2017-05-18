@@ -14,23 +14,31 @@ browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apu
 time.sleep(2)
 #print pages title  
 print(browser.title)
- 
-ids = browser.find_elements_by_class_name('hacktivity__wrapper').text()
-num = 0
 
-while True:
-    myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
-    ids.append(browser.find_elements_by_class_name('hacktivity__wrapper'))
-    myButton.click()   
-    time.sleep(2)
-    try:	    
-        myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
-        ids.append(browser.find_elements_by_class_name('hacktivity__wrapper'))
-    except NoSuchElementException:
-        ids.append(browser.find_elements_by_class_name('hacktivity__wrapper')
-        break
+ids = browser.find_elements_by_class_name('hacktivity__link')
+textList = []
+for ii in ids:
+	#print ii.tag_name
+	textList.append(ii.get_attribute('text'))
+#	print("FUCKYABUDDY")
+print(textList.count('SQL'))	
+#print(textList)
 
-print(ids)
+#num = 0
+
+#while True:
+#    myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
+#    ids.append(browser.find_elements_by_class_name('hacktivity__wrapper'))
+ #   myButton.click()   
+  #  time.sleep(2)
+   # try:	    
+    #    myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
+     #   ids.append(browser.find_elements_by_class_name('hacktivity__wrapper'))
+   # except NoSuchElementException:
+	#	ids.append(browser.find_elements_by_class_name('hacktivity__wrapper'))
+	#	break
+
+#print(ids)
 browser.quit() 
 
 #with session() as c:
