@@ -5,112 +5,31 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from vulnCounter import * 
+from append import appendList
 import time  
 #open Web Browser
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
-browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=1&range=forever')  
+browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=144&range=forever')  
 #wait for 3 seconds for page to load
 time.sleep(2)
 #print pages title  
 print("We Are on Page :" , browser.title)
 textList = []
-num = 0
-sqlCount = 0
-XSSCount = 0
-XXECount = 0
-HTMLCount = 0
-HTMLXSSCount = 0
-CSRFCount = 0
-HTTPCount =0
-SSRFCount = 0
-XMLCount = 0
-COOKIEVULN = 0
-OPRED = 0
-AUTHVULN = 0
-RCEVULN = 0
-def vulnCounter(textList):
-    global sqlCount
-    global XSSCount
-    global XXECount
-    global HTMLCount
-    global HTMLXSSCount
-    global CSRFCount
-    global HTTPCount
-    global SSRFCount
-    global COOKIEVULN
-    global OPRED
-    global AUTHVULN
-    global RCEVULN
-
-    global XMLCount
-    textList = [x for x in textList if x is not None]
-    length = len(textList)
-    i = 0
-    for i in range(length):
-        if "sql" in textList[i].lower():
-            sqlCount = sqlCount + 1
-        if "csrf" in textList[i].lower():
-            CSRFCount = CSRFCount + 1
-        if "xss" in textList[i].lower() or "cross-site scripting" in textList[i].lower() or "cross site scripting" in textList[i].lower():
-            if "html" in textList[i].lower() and "xss" in textList[i].lower():
-                continue
-            else:
-                 #print(textList[i])
-                 #print(textList[i].lower())
-                 XSSCount = XSSCount + 1
-        if "xml" in textList[i].lower():
-            XMLCount = XMLCount + 1
-        if "xxe" in textList[i].lower():
-            XXECount = XXECount + 1
-        if "html" in textList[i].lower() and "xss" in textList[i].lower():
-            HTMLXSSCount = HTMLXSSCount + 1
-        if "http" in textList[i].lower():
-            HTTPCount = HTTPCount + 1
-        if "ssrf" in textList[i].lower():
-            SSRFCount = SSRFCount + 1
-        if "cookie" in textList[i].lower():
-            COOKIEVULN = COOKIEVULN + 1
-        if "open redirect" in textList[i].lower() or "open-redirect" in textList[i].lower():
-            OPRED = OPRED + 1
-        if "auth" in textList[i].lower():
-            AUTHVULN = AUTHVULN + 1
-        if "rce" in textList[i].lower() or "remote code execution" in textList[i].lower():
-            RCEVULN = RCEVULN + 1
-        i = i + 1
-
-
-def appendList(textList):
-    global num
-    ids = browser.find_elements_by_class_name('hacktivity__link')
-    #print("ids going in:", ids)
-    for ii in ids:
-        num = num + 1
-        #append ii.Text_name to our list.
-        word = ii.get_attribute('text')
-        #print(word)
-        textList.append(word)
-    #print("textlist before clean:",textList)
-    textList = [x for x in textList if x is not None]
-    #print("textList going out:",textList)
-    return textList
-
-
-
-
 while True:
     try:
         time.sleep(2)
         #print("fuck this dude")
         myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
-        appendList(textList)
+        appendList(textList,browser)
         #print("inside 1st try")
         myButton.click()
     except NoSuchElementException:
         #print("im not skipping")
         time.sleep(2)
         #print("im where I should be")
-        appendList(textList)
+        appendList(textList,browser)
         #print(textList)
         vulnCounter(textList)
         break
