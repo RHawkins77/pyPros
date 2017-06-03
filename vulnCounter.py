@@ -1,6 +1,6 @@
+from append import getNum
 # Vulnerability Counter Module
-
-
+num = 0
 sqlCount = 0
 XSSCount = 0
 XXECount = 0
@@ -14,9 +14,6 @@ COOKIEVULN = 0
 OPRED = 0
 AUTHVULN = 0
 RCEVULN = 0
-
-
-
 
 
 def vulnCounter(textList):
@@ -67,4 +64,66 @@ def vulnCounter(textList):
         if "rce" in textList[i].lower() or "remote code execution" in textList[i].lower():
             RCEVULN = RCEVULN + 1
         i = i + 1
+        printerCounter()
+
+def printerCounter():
+    global sqlCount
+    global XSSCount
+    global XXECount
+    global HTMLCount
+    global HTMLXSSCount
+    global CSRFCount
+    global HTTPCount
+    global SSRFCount
+    global COOKIEVULN
+    global OPRED
+    global AUTHVULN
+    global RCEVULN
+    global XMLCount
+    num = getNum()
+with open('Count.txt', 'a+') as f:
+    f.write("SQL Count: ")
+    f.write(str(sqlCount))
+    f.write("\n")
+    f.write("CSRF Count: ")
+    f.write(str(CSRFCount))
+    f.write("\n")
+    f.write("xml count: ")
+    f.write(str(XMLCount))
+    f.write("\n")
+    f.write("HTTP Count: ")
+    f.write(str(HTTPCount))
+    f.write("\n")
+    f.write("SSRF Count: ")
+    f.write(str(SSRFCount))
+    f.write("\n")
+    f.write("XXE Count: ")
+    f.write(str(XXECount))
+    f.write("\n")
+    f.write("XSS Count: ")
+    f.write(str(XSSCount))
+    f.write("\n")
+    f.write("HTML and XSS Count: ")
+    f.write(str(HTMLXSSCount))
+    f.write("\n")
+    f.write("HTML Count: ")
+    f.write(str(HTMLCount))
+    f.write("\n")
+    f.write("Cookie Vuln. Counter: ")
+    f.write(str(COOKIEVULN))
+    f.write("\n")
+    f.write("Open Redirect Count: ")
+    f.write(str(OPRED))
+    f.write("\n")
+    f.write("Authorization Vuln. Count: ")
+    f.write(str(AUTHVULN))
+    f.write("\n")
+    f.write("remote code execution count: ")
+    f.write(str(RCEVULN))
+    f.write("\n")
+    f.write("Number of disclosed reports Counted Total:")
+    f.write(str(num))
+    f.write("\n")
+
+
 

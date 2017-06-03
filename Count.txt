@@ -1,0 +1,56 @@
+SQL Count: 0
+CSRF Count: 0
+xml count: 0
+HTTP Count: 1
+SSRF Count: 0
+XXE Count: 0
+XSS Count: 7
+HTML and XSS Count: 0
+HTML Count: 0
+Cookie Vuln. Counter: 0
+Open Redirect Count: 0
+Authorization Vuln. Count: 2
+remote code execution count: 0
+Number of disclosed reports Counted Total:14
+SQL Count: 0
+CSRF Count: 0
+xml count: 0
+HTTP Count: 0
+SSRF Count: 0
+XXE Count: 0
+XSS Count: 1
+HTML and XSS Count: 0
+HTML Count: 0
+Cookie Vuln. Counter: 0
+Open Redirect Count: 0
+Authorization Vuln. Count: 1
+remote code execution count: 0
+Number of disclosed reports Counted Total:1
+SQL Count: 0
+CSRF Count: 0
+xml count: 0
+HTTP Count: 0
+SSRF Count: 0
+XXE Count: 0
+XSS Count: 1
+HTML and XSS Count: 0
+HTML Count: 0
+Cookie Vuln. Counter: 0
+Open Redirect Count: 0
+Authorization Vuln. Count: 1
+remote code execution count: 0
+Number of disclosed reports Counted Total:1
+SQL Count: 0
+CSRF Count: 0
+xml count: 0
+HTTP Count: 0
+SSRF Count: 0
+XXE Count: 0
+XSS Count: 1
+HTML and XSS Count: 0
+HTML Count: 0
+Cookie Vuln. Counter: 0
+Open Redirect Count: 0
+Authorization Vuln. Count: 1
+remote code execution count: 0
+Number of disclosed reports Counted Total:1
