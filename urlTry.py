@@ -6,9 +6,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from append import appendList
+from append import findIfPaid
 import time  
 
-num = 0
+number = 0
 sqlCount = 0
 XSSCount = 0
 XXECount = 0
@@ -23,10 +24,18 @@ OPRED = 0
 AUTHVULN = 0
 RCEVULN = 0
 textList = []
+linkList = []
+titleList=[]
+nonPaidCounter = 0
+paidBounties = 0
+
+top200 = []
+
+
 
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
-browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=146&range=forever')  
+browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=149&range=forever')  
 time.sleep(2)
 print("Please wait while we look for the Results you have Requested")
 
@@ -84,18 +93,21 @@ while True:
         time.sleep(2)
         #print("fuck this dude")
         myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
-        appendList(textList,browser)
+        linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
         #print("inside 1st try")
         myButton.click()
     except NoSuchElementException:
         #print("im not skipping")
         time.sleep(2)
-        #print("im where I should be")
-        number = appendList(textList,browser)
+        linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
         #print(textList)
         break
+vulnCounter(titleList)
+nonpaidCounter, paidBounties = findIfPaid(linkList,nonPaidCounter,browser,paidBounties)
+print("nonpaid counter, then paid bounties:\n",nonPaidCounter, paidBounties)
     #print("I skipped?")
-vulnCounter(textList)
+#print(linkList)
+#vulnCounter(textList)
 
 with open('Count.txt', 'a+') as f:
     f.write("SQL Count: ")
