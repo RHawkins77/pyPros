@@ -11,13 +11,14 @@ import time
 
 browser = webdriver.Firefox()
 
-browser.get('https://hackerone.com/reports/124100')
-
-time.sleep(3)
+browser.get('https://hackerone.com/reports/85201')
 try:
-    link = browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]')
-    link2 =  browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[5]/td[2]').get_attribute('innerHTML')
+    link = browser.find_element_by_class_name('report-heading__report-title spec-report-title').get_attribute('text')
     print(link)
-    print(link2)
 except NoSuchElementException:
-    print("aint here yo!")
+    print("oh no!!!")
+
+
+link = "$"
+with open('TESTER.txt', 'a+') as f:
+    f.write("hello"+link+"fuckin a")

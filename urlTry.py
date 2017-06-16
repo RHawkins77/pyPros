@@ -7,6 +7,10 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 from append import appendList
 from append import findIfPaid
+from order import orderList
+from createList import writeList
+from createList import writeLastList
+
 import time  
 
 number = 0
@@ -26,17 +30,19 @@ RCEVULN = 0
 textList = []
 linkList = []
 titleList=[]
-nonPaidCounter = 0
+nonePaidCounters = 0
 paidBounties = 0
-
+leOneHun = 0
+geTenThou = 0
+bountyPriceList = []
 top200 = []
-
+spot = []
 
 
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
-browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=149&range=forever')  
-time.sleep(2)
+browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=151&range=forever')  
+time.sleep(3)
 print("Please wait while we look for the Results you have Requested")
 
 def vulnCounter(textList):
@@ -103,11 +109,24 @@ while True:
         #print(textList)
         break
 vulnCounter(titleList)
-nonpaidCounter, paidBounties = findIfPaid(linkList,nonPaidCounter,browser,paidBounties)
-print("nonpaid counter, then paid bounties:\n",nonPaidCounter, paidBounties)
+bountyPriceList, spot, nonePaidCounters, geTenThou, leOneHun = findIfPaid(linkList,titleList, bountyPriceList, browser, paidBounties, spot, geTenThou,leOneHun)
+#print(bountyPriceList,nonePaidCounters,geTenThou,leOneHun)
+#print(len(bountyPriceList))
+#print(spot)
     #print("I skipped?")
 #print(linkList)
 #vulnCounter(textList)
+bountyPriceList, spot = orderList(bountyPriceList, spot)
+writeList(bountyPriceList, spot, titleList, linkList)
+writeLastList(bountyPriceList, spot, titleList, linkList)
+
+
+with open('AboveAndBelow.txt', 'a+') as g:
+    g.write("Greater than or equal to 10K:\n")
+    g.write(str(geTenThou))
+    g.write("Less than or equal to 100:\n")
+    g.write(str(leOneHun))
+    
 
 with open('Count.txt', 'a+') as f:
     f.write("SQL Count: ")
