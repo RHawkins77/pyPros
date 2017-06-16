@@ -41,7 +41,7 @@ spot = []
 
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
-browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=151&range=forever')  
+browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=1&range=forever')  
 time.sleep(3)
 print("Please wait while we look for the Results you have Requested")
 
