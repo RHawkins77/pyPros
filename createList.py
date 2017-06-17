@@ -7,20 +7,19 @@ def writeList(bountyPriceList, spot, titleList,linkList):
     j = 1   
     i = 0
     for ii in spot:
-        place = str()
         spotholder = int(ii)
         with open('topList.txt', 'a+') as f:
             f.write("#")
             f.write(str(j))
             f.write("\n")
             f.write("$")
-            f.write(bountyPriceList[i])
+            f.write(bountyPriceList[i].encode('utf-8'))
             f.write("\n")
             f.write("The Title of the Report:")
-            f.write(titleList[spotholder])
+            f.write(titleList[spotholder].encode('utf-8'))
             f.write("\n")
             f.write("The URL:")
-            f.write(linkList[spotholder])
+            f.write(linkList[spotholder].encode('utf-8'))
             f.write("\n")
         i = i + 1
         j = j + 1
@@ -40,13 +39,13 @@ def writeLastList(bountyPriceList, spot, titleList,linkList):
             f.write(str(j))
             f.write("\n")
             f.write("$")
-            f.write(bountyPriceList[i])
+            f.write(bountyPriceList[i].encode('utf-8'))
             f.write("\n")
             f.write("The Title of the Report:")
-            f.write(titleList[int(i)])
+            f.write(titleList[int(i)].encode('utf-8'))
             f.write("\n")
             f.write("The URL:")
-            f.write(linkList[int(i)])
+            f.write(linkList[int(i)].encode('utf-8'))
             f.write("\n")
         i = i - 1
         j = j + 1

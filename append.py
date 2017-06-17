@@ -1,5 +1,11 @@
+from __future__ import print_function
+from requests import session
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import TimeoutException
 import time
 import operator
 #Appending List of titles
@@ -20,13 +26,14 @@ def appendList(hrefList, browser, titleList,count):
 
 
 
-def findIfPaid(linkList, titleList, bountyPriceList,browser,disclosed,spot,geTenThou,leOneHun):
+def findIfPaid(linkList, titleList, bountyPriceList,disclosed,spot,geTenThou,leOneHun):
     size = len(linkList)
     i =0 
     global nonePaidReports
         #print(titleList[i])
         #print(hrefList[i])
     while i < size:
+        browser = webdriver.Firefox()
         browser.get(linkList[i])
         j = 1
         time.sleep(3)
@@ -39,9 +46,10 @@ def findIfPaid(linkList, titleList, bountyPriceList,browser,disclosed,spot,geTen
                         link =  browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[%d]/td[2]' % j).get_attribute('innerHTML')
                         bountyNumber = link.replace('$','').replace(',','')
                         #print(link)
-                        geTenThou, leOneHun = sizeChecker(geTenThou, leOneHun,bountyNumber)
+                        geTenThou, leOneHun = sizeChecker(geTenThou, leOneHun, bountyNumber)
                         bountyPriceList, spot = insertPaidReports(bountyPriceList,bountyNumber,linkList,i,spot)
                         #print("EVERYTHING WENT PERFECT WE ADDED")
+                        browser.quit()
                         i = i + 1
                         break
                     except NoSuchElementException:
@@ -54,8 +62,11 @@ def findIfPaid(linkList, titleList, bountyPriceList,browser,disclosed,spot,geTen
                 writeToUnpaid(browser, titleList, i)
                 #print("WE HAVE A NONEPAID REPORT HERE")
                 #print(j)
+                browser.quit()
                 i = i + 1
                 break
+            except TimeoutException:
+                return bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
     return bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
 
 
@@ -70,7 +81,7 @@ def sizeChecker(tenThou, oneHun,bountyNum):
 
 def writeToUnpaid(browser, givenTitleList, ourI):
     with open('unpaidReports.txt', 'a+') as f:
-        f.write(givenTitleList[ourI])
+        f.write(givenTitleList[ourI].encode('utf-8'))
         f.write("\n")
         f.write("The URL:")
         f.write(browser.current_url)

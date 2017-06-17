@@ -42,7 +42,7 @@ spot = []
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
 browser.get('https://hackerone.com/hacktivity?sort_type=upvotes&filter=type%3Apublic&page=1&range=forever')  
-time.sleep(3)
+time.sleep(1)
 print("Please wait while we look for the Results you have Requested")
 
 def vulnCounter(textList):
@@ -96,7 +96,7 @@ def vulnCounter(textList):
 
 while True:
     try:
-        time.sleep(2)
+        time.sleep(1)
         #print("fuck this dude")
         myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
         linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
@@ -104,12 +104,13 @@ while True:
         myButton.click()
     except NoSuchElementException:
         #print("im not skipping")
-        time.sleep(2)
+        time.sleep(1)
         linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
         #print(textList)
         break
 vulnCounter(titleList)
-bountyPriceList, spot, nonePaidCounters, geTenThou, leOneHun = findIfPaid(linkList,titleList, bountyPriceList, browser, paidBounties, spot, geTenThou,leOneHun)
+browser.quit()
+bountyPriceList, spot, nonePaidCounters, geTenThou, leOneHun = findIfPaid(linkList,titleList, bountyPriceList, paidBounties, spot, geTenThou,leOneHun)
 #print(bountyPriceList,nonePaidCounters,geTenThou,leOneHun)
 #print(len(bountyPriceList))
 #print(spot)

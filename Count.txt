@@ -1,0 +1,14 @@
+SQL Count: 10
+CSRF Count: 17
+xml count: 4
+HTTP Count: 22
+SSRF Count: 2
+XXE Count: 9
+XSS Count: 75
+HTML and XSS Count: 0
+HTML Count: 0
+Cookie Vuln. Counter: 2
+Open Redirect Count: 9
+Authorization Vuln. Count: 32
+remote code execution count: 37
+Number of disclosed reports Counted Total:375
