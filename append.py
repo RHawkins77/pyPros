@@ -19,62 +19,66 @@ def appendList(hrefList, browser, titleList,count):
         hrefWord= ii.get_attribute('href')
         titleWords = ii.get_attribute('text')
         hrefList.append(hrefWord)
-        count = count +1
+        count = count + 1
         titleList.append(titleWords)
-    #print(titleList)
+    #print(len(hrefList))
     return hrefList, browser, titleList, count
 
 
 
 def findIfPaid(linkList, titleList, bountyPriceList,disclosed,spot,geTenThou,leOneHun):
     size = len(linkList)
-    i =0 
+    i =0
+    broken = 0
+    print(len(linkList))
     global nonePaidReports
         #print(titleList[i])
         #print(hrefList[i])
     while i < size:
         browser = webdriver.Firefox()
-        browser.get(linkList[i])
-        j = 1
-        time.sleep(3)
-        while j < 12:
-            try:
-                #print(j)
-                bountyChecker = browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[%d]/td[1]' % j).get_attribute('innerHTML')
-                if "bounty" in bountyChecker.lower():
-                    try:
-                        link =  browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[%d]/td[2]' % j).get_attribute('innerHTML')
-                        bountyNumber = link.replace('$','').replace(',','')
-                        #print(link)
-                        geTenThou, leOneHun = sizeChecker(geTenThou, leOneHun, bountyNumber)
-                        bountyPriceList, spot = insertPaidReports(bountyPriceList,bountyNumber,linkList,i,spot)
-                        #print("EVERYTHING WENT PERFECT WE ADDED")
-                        browser.quit()
-                        i = i + 1
-                        break
-                    except NoSuchElementException:
-                        print("DURING THE PROCESS WE FOUND A BOUNTY TAG BUT NO MATCHING PRICE TAG")
-                else:
-                    j = j + 1
-            except NoSuchElementException:
-                #print("but got back here again")
-                nonePaidReports = nonePaidReports + 1
-                writeToUnpaid(browser, titleList, i)
-                #print("WE HAVE A NONEPAID REPORT HERE")
-                #print(j)
-                browser.quit()
-                i = i + 1
-                break
-            except TimeoutException:
-                return bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
-    return bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
+        try:
+            browser.get(linkList[i])
+            j = 1
+            time.sleep(3)
+            while j < 12:
+                try:
+                    #print(j)
+                    bountyChecker = browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[%d]/td[1]' % j).get_attribute('innerHTML')
+                    if "bounty" in bountyChecker.lower():
+                        try:
+                            link =  browser.find_element_by_xpath('/html/body/div[3]/div[2]/div[1]/div/div[1]/div/div[2]/div[2]/table[1]/tbody/tr[%d]/td[2]' % j).get_attribute('innerHTML')
+                            bountyNumber = link.replace('$','').replace(',','')
+                            #print(link)
+                            geTenThou, leOneHun = sizeChecker(geTenThou, leOneHun, bountyNumber)
+                            bountyPriceList, spot = insertPaidReports(bountyPriceList,bountyNumber,linkList,i,spot)
+                            #print("EVERYTHING WENT PERFECT WE ADDED")
+                            browser.quit()
+                            i = i + 1
+                            break
+                        except NoSuchElementException:
+                            print("DURING THE PROCESS WE FOUND A BOUNTY TAG BUT NO MATCHING PRICE TAG")
+                    else:
+                        j = j + 1
+                except NoSuchElementException:
+                    #print("but got back here again")
+                    nonePaidReports = nonePaidReports + 1
+                    writeToUnpaid(browser, titleList, i)
+                    #print("WE HAVE A NONEPAID REPORT HERE")
+                    #print(j)
+                    browser.quit()
+                    i = i + 1
+                    break
+        except TimeoutException:
+            broken = 1
+            return broken, bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
+    return broken, bountyPriceList, spot, nonePaidReports, geTenThou, leOneHun 
 
 
 def sizeChecker(tenThou, oneHun,bountyNum):
-    if operator.ge(int(bountyNum),10000):
+    if operator.ge(float(bountyNum),10000):
         #save to equal or above 10000
         tenThou = tenThou + 1
-    if operator.le(int(bountyNum),100):
+    if operator.le(float(bountyNum),100):
         #save to equal or above 100
         oneHun = oneHun + 1
     return tenThou, oneHun

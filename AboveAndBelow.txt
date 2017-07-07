@@ -1,3 +1,0 @@
-Greater than or equal to 10K:
-18Less than or equal to 100:
-28

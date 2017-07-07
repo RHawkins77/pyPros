@@ -10,7 +10,8 @@ from append import findIfPaid
 from order import orderList
 from createList import writeList
 from createList import writeLastList
-
+from brokeFile import writeToBrokenFile
+from selenium.common.exceptions import InvalidElementStateException
 import time  
 
 number = 0
@@ -37,7 +38,8 @@ geTenThou = 0
 bountyPriceList = []
 top200 = []
 spot = []
-
+#IF 0 OUR SYSTEM IS NOT BROKEN IF BROKEN == 1 WE BROKE
+broken = 0
 
 browser = webdriver.Firefox()  
 #get hackerone disclosed hacktivity page
@@ -96,30 +98,33 @@ def vulnCounter(textList):
 
 while True:
     try:
-        time.sleep(1)
+        time.sleep(2)
         #print("fuck this dude")
         myButton = browser.find_element_by_xpath('/html/body/div[3]/span/div/div[2]/div[1]/div[27]/div[1]/div[2]/button[2]')
         linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
         #print("inside 1st try")
         myButton.click()
-    except NoSuchElementException:
+    except(NoSuchElementException,InvalidElementStateException):
         #print("im not skipping")
-        time.sleep(1)
+        time.sleep(2)
         linkList, browser, titleList, number = appendList(linkList,browser,titleList,number)
         #print(textList)
         break
 vulnCounter(titleList)
 browser.quit()
-bountyPriceList, spot, nonePaidCounters, geTenThou, leOneHun = findIfPaid(linkList,titleList, bountyPriceList, paidBounties, spot, geTenThou,leOneHun)
+broken, bountyPriceList, spot, nonePaidCounters, geTenThou, leOneHun = findIfPaid(linkList,titleList, bountyPriceList, paidBounties, spot, geTenThou,leOneHun)
 #print(bountyPriceList,nonePaidCounters,geTenThou,leOneHun)
 #print(len(bountyPriceList))
 #print(spot)
     #print("I skipped?")
 #print(linkList)
 #vulnCounter(textList)
-bountyPriceList, spot = orderList(bountyPriceList, spot)
-writeList(bountyPriceList, spot, titleList, linkList)
-writeLastList(bountyPriceList, spot, titleList, linkList)
+if broken == 1:
+    writeToBrokenFile(bountyPriceList, spot, linkList, titleList)
+if broken == 0:
+    bountyPriceList, spot = orderList(bountyPriceList, spot)
+    writeList(bountyPriceList, spot, titleList, linkList)
+    writeLastList(bountyPriceList, spot, titleList, linkList)
 
 
 with open('AboveAndBelow.txt', 'a+') as g:
