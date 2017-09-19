@@ -1,0 +1,1340 @@
+BAD Code ! 
+The URL:https://hackerone.com/reports/180074
+XSS At "pages.et.uber.com"
+The URL:https://hackerone.com/reports/156098
+DMARC  Not found for paragonie.com   URGENT
+The URL:https://hackerone.com/reports/179828
+vulnerabilitie
+The URL:https://hackerone.com/reports/137723
+Read files on application server, leads to RCE
+The URL:https://hackerone.com/reports/178152
+Remote Unrestricted file Creation/Deletion and Possible RCE.
+The URL:https://hackerone.com/reports/191884
+[Critical] Delete any account 
+The URL:https://hackerone.com/reports/158872
+Ability to access all user authentication tokens, leads to RCE
+The URL:https://hackerone.com/reports/158330
+[rev-app.informatica.com] - XXE
+The URL:https://hackerone.com/reports/105434
+Java Deserialization RCE via JBoss on card.starbucks.in
+The URL:https://hackerone.com/reports/221294
+I am because bug
+The URL:https://hackerone.com/reports/226094
+Type Juggling -> PHP Object Injection -> SQL Injection Chain
+The URL:https://hackerone.com/reports/202774
+Attacker could setup reminder remotely using brute force
+The URL:https://hackerone.com/reports/158393
+Subdomain Takeover
+The URL:https://hackerone.com/reports/180393
+(HackerOne SSO-SAML) Login CSRF, Open Redirect, and Self-XSS Possible Exploitation
+The URL:https://hackerone.com/reports/171398
+Java Deserialization RCE via JBoss JMXInvokerServlet/EJBInvokerServlet on card.starbucks.in
+The URL:https://hackerone.com/reports/153026
+Local File Inclusion vulnerability on an Army system allows downloading local files
+The URL:https://hackerone.com/reports/183978
+Password Reset link hijacking via Host Header Poisoning 
+The URL:https://hackerone.com/reports/226659
+Host header poisoning leads to account password reset links hijacking
+The URL:https://hackerone.com/reports/167631
+Remote code execution on an Army website
+The URL:https://hackerone.com/reports/188284
+ssl info shown 
+The URL:https://hackerone.com/reports/149369
+[http2.cloudflare.com] Open Redirect
+The URL:https://hackerone.com/reports/193027
+JSBeautifier BApp: Race condition leads to memory disclosure
+The URL:https://hackerone.com/reports/187134
+Remote Code Execution (RCE) in a DoD website
+The URL:https://hackerone.com/reports/211381
+[ipm.informatica.com] Sql injection Oracle 
+The URL:https://hackerone.com/reports/178057
+GNIP subdomain take over
+The URL:https://hackerone.com/reports/189548
+Unrestricted File Upload
+The URL:https://hackerone.com/reports/184596
+I am because bug
+The URL:https://hackerone.com/reports/226097
+Report redaction doesn't apply to report title update activities
+The URL:https://hackerone.com/reports/196358
+Time-based Blind SQLi on news.starbucks.com
+The URL:https://hackerone.com/reports/198292
+[app.informaticaondemand.com] XXE
+The URL:https://hackerone.com/reports/105753
+Ability to enumerate private programs using SAML
+The URL:https://hackerone.com/reports/167828
+Reflected XSS on partners.cloudflare.com
+The URL:https://hackerone.com/reports/131397
+[Critical] billion dollars issue
+The URL:https://hackerone.com/reports/244836
+Cloudflare based XSS for IE11
+The URL:https://hackerone.com/reports/214620
+Cache-Control Misconfiguration Leads to Sensitive Information Leakage
+The URL:https://hackerone.com/reports/132835
+XXE on DoD web server
+The URL:https://hackerone.com/reports/188743
+Infinite Upvoting/Downvoting: Lockout Bypass, Plus: Exposed API Documentation
+The URL:https://hackerone.com/reports/142569
+Parameter tampering can result in product price manipulation
+The URL:https://hackerone.com/reports/218748
+ XXE in upload file feature
+The URL:https://hackerone.com/reports/105787
+Server side request forgery (SSRF) on nextcloud implementation.
+The URL:https://hackerone.com/reports/145524
+gmmovinparts.com SQLi via forgot_password.jsp
+The URL:https://hackerone.com/reports/109395
+Hackerone Email Addresses Enumeration
+The URL:https://hackerone.com/reports/2429
+I am because bug
+The URL:https://hackerone.com/reports/226188
+Subdomain Takeover in http://genghis-cdn.shopify.io/ pointing to Fastly 
+The URL:https://hackerone.com/reports/165309
+Local File Disclosure via ffmpeg 
+The URL:https://hackerone.com/reports/242831
+HackerOne is still prone to Internet Explorer UXSS
+The URL:https://hackerone.com/reports/108056
+Updating and Deleting any Ads on OLX Philippines 
+The URL:https://hackerone.com/reports/150631
+Lack of Controls Allowing for Card and PIN Enumeration Leading to Fraud
+The URL:https://hackerone.com/reports/198494
+OPEN URL REDIRECT through PNG files
+The URL:https://hackerone.com/reports/163272
+Link sanitation bypass in xss_clean() 
+The URL:https://hackerone.com/reports/171670
+deleting payment profile during active trip puts account into arrears but active trip is temporarily “free”
+The URL:https://hackerone.com/reports/216373
+XSS in OAuth Redirect Url
+The URL:https://hackerone.com/reports/163707
+Able to create basic user account via Google login on HackerOne Drupal CMS
+The URL:https://hackerone.com/reports/208407
+Exposed Unencrypted Telnet Endpoint
+The URL:https://hackerone.com/reports/194454
+Privilege escalation to access all private groups and repositories
+The URL:https://hackerone.com/reports/131210
+[cfire.mail.ru] CSRF Bypassed - Changing anyone's 'User Info'
+The URL:https://hackerone.com/reports/161408
+Remote code execution vulnerability on a DoD website
+The URL:https://hackerone.com/reports/212985
+JSON CSRF on the https://api.wakatime.com/api/v1/ (example with the time logging).
+The URL:https://hackerone.com/reports/245346
+Stored XSS at https://finance.owox.com/customer/accountList
+The URL:https://hackerone.com/reports/192922
+RCE on a Department of Defense website
+The URL:https://hackerone.com/reports/184279
+User Supplied links on profile page is not validated and redirected via gratipay.
+The URL:https://hackerone.com/reports/151831
+████ discloses valid Airbnb SSO login names via Google Search Results
+The URL:https://hackerone.com/reports/161659
+Stored XSS
+The URL:https://hackerone.com/reports/214484
+Site support SNI But Browser can't
+The URL:https://hackerone.com/reports/149442
+User Supplied links on profile page is not validated and redirected via gratipay.
+The URL:https://hackerone.com/reports/151831
+████ discloses valid Airbnb SSO login names via Google Search Results
+The URL:https://hackerone.com/reports/161659
+Content-type sniffing leads to stored XSS in CMS Airship on Internet Explorer 
+The URL:https://hackerone.com/reports/151231
+CRLF injection in info.hacker.one
+The URL:https://hackerone.com/reports/217058
+Mobile Authentication Endpoint Credentials Brute-Force Vulnerability
+The URL:https://hackerone.com/reports/127202
+Spoof Email with Hyperlink Injection via Invites functionality
+The URL:https://hackerone.com/reports/182008
+Unauthenticated Stored xss 
+The URL:https://hackerone.com/reports/168054
+Local File Inclusion path bypass
+The URL:https://hackerone.com/reports/147570
+[element.mail.ru] /.svn/entries
+The URL:https://hackerone.com/reports/187602
+takeover a lot of accounts
+The URL:https://hackerone.com/reports/180388
+Content-type sniffing leads to stored XSS in CMS Airship on Internet Explorer 
+The URL:https://hackerone.com/reports/151231
+Unauthenticated Stored xss 
+The URL:https://hackerone.com/reports/168054
+test.zba.se is vulnerable to SSL POODLE  
+The URL:https://hackerone.com/reports/201520
+Mobile Authentication Endpoint Credentials Brute-Force Vulnerability
+The URL:https://hackerone.com/reports/127202
+takeover a lot of accounts
+The URL:https://hackerone.com/reports/180388
+Local File Inclusion path bypass
+The URL:https://hackerone.com/reports/147570
+Uploaded XLF files result in External Entity Execution
+The URL:https://hackerone.com/reports/232614
+CRLF injection in info.hacker.one
+The URL:https://hackerone.com/reports/217058
+Spoof Email with Hyperlink Injection via Invites functionality
+The URL:https://hackerone.com/reports/182008
+Ability to monitor reports' submission in real time
+The URL:https://hackerone.com/reports/159890
+XSS @ *.letgo.com
+The URL:https://hackerone.com/reports/150822
+www.hackerone.com website CSP "script-src" includes "unsafe-inline"
+The URL:https://hackerone.com/reports/225833
+Amazon S3 bucket misconfiguration (share)
+The URL:https://hackerone.com/reports/229690
+WordPress <= 4.6.1 Stored XSS Via Theme File
+The URL:https://hackerone.com/reports/197878
+Requestor Email Disclosure via Email Notification
+The URL:https://hackerone.com/reports/202361
+Ability to monitor reports' submission in real time
+The URL:https://hackerone.com/reports/159890
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/200623
+XSS @ *.letgo.com
+The URL:https://hackerone.com/reports/150822
+www.hackerone.com website CSP "script-src" includes "unsafe-inline"
+The URL:https://hackerone.com/reports/225833
+Amazon S3 bucket misconfiguration (share)
+The URL:https://hackerone.com/reports/229690
+Requestor Email Disclosure via Email Notification
+The URL:https://hackerone.com/reports/202361
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/200623
+Ability to monitor reports' submission in real time
+The URL:https://hackerone.com/reports/159890
+Session replay vulnerability in www.urbandictionary.com
+The URL:https://hackerone.com/reports/216294
+DOM Based XSS on an Army website
+The URL:https://hackerone.com/reports/191407
+Subdomain takeover of blog.snapchat.com
+The URL:https://hackerone.com/reports/171942
+Combined attacks leading to stealing user's account
+The URL:https://hackerone.com/reports/205529
+Response Header injection using redirect_uri together with PHP that utilizes Header Folding according to RFC1945 and Internet Explorer 11
+The URL:https://hackerone.com/reports/145392
+Researcher gets email updates on a private program after he/she quits that program.
+The URL:https://hackerone.com/reports/174449
+DOM Based XSS on an Army website
+The URL:https://hackerone.com/reports/191407
+State filter in IssuableFinder allows attacker to delete all issues and merge requests
+The URL:https://hackerone.com/reports/186194
+Response Header injection using redirect_uri together with PHP that utilizes Header Folding according to RFC1945 and Internet Explorer 11
+The URL:https://hackerone.com/reports/145392
+Researcher gets email updates on a private program after he/she quits that program.
+The URL:https://hackerone.com/reports/174449
+Subdomain takeover of blog.snapchat.com
+The URL:https://hackerone.com/reports/171942
+DOM Based XSS on an Army website
+The URL:https://hackerone.com/reports/191407
+Unauthorised Access to Anyone's User Account
+The URL:https://hackerone.com/reports/202921
+Content spoofing in lookup.nextcloud.com
+The URL:https://hackerone.com/reports/171497
+Deleting Key-value pair from Frozen HASH or Clearing a Frozen HASH
+The URL:https://hackerone.com/reports/194866
+No Rate Limiting on stats.nextcloud.com login
+The URL:https://hackerone.com/reports/146424
+Example HackerOne security@ forward domain is not registered
+The URL:https://hackerone.com/reports/218705
+Combined attacks leading to stealing user's account
+The URL:https://hackerone.com/reports/205529
+HTTP trace method is enabled on aspen.io
+The URL:https://hackerone.com/reports/203409
+XSS @ yaman.olx.ph
+The URL:https://hackerone.com/reports/150565
+Manipulating joinolx.com Job Vacancy alert subscription emails (HTML Injection / Script Injection)
+The URL:https://hackerone.com/reports/151149
+Urgent Fix Balance Limit bypass 
+The URL:https://hackerone.com/reports/147220
+SSO Authentication Bypass
+The URL:https://hackerone.com/reports/168108
+Urgent Fix Balance Limit bypass 
+The URL:https://hackerone.com/reports/147220
+Reflected cross-site scripting vulnerability on a DoD website
+The URL:https://hackerone.com/reports/184042
+https://portal.nextcloud.com/.htaccess file is readable
+The URL:https://hackerone.com/reports/220946
+Reflected XSS in U2F plugin by shipping the example endpoints
+The URL:https://hackerone.com/reports/192786
+Unfiltered `class` attribute in markdown code
+The URL:https://hackerone.com/reports/216453
+XSS @ yaman.olx.ph
+The URL:https://hackerone.com/reports/150565
+Users can download old project exports due to unclaimed namespace
+The URL:https://hackerone.com/reports/195058
+[marketplace.informatica.com] - XXE
+The URL:https://hackerone.com/reports/106797
+[marketplace.informatica.com] - XXE
+The URL:https://hackerone.com/reports/106802
+Manipulating joinolx.com Job Vacancy alert subscription emails (HTML Injection / Script Injection)
+The URL:https://hackerone.com/reports/151149
+Unauthorized Team members viewing
+The URL:https://hackerone.com/reports/123572
+SSO Authentication Bypass
+The URL:https://hackerone.com/reports/168108
+Disclosure of administrators via JSON on nextcloud.com Wordpress
+The URL:https://hackerone.com/reports/198012
+HTTP trace method is enabled on aspen.io
+The URL:https://hackerone.com/reports/203409
+Reflected Xss on 
+The URL:https://hackerone.com/reports/182033
+No validation on account names
+The URL:https://hackerone.com/reports/114796
+Subdomain takeover in many subdomains
+The URL:https://hackerone.com/reports/205949
+Content length restriction bypass can lead to DOS by reading large files on gip.rocks
+The URL:https://hackerone.com/reports/203388
+Wordpress 4.7.1
+The URL:https://hackerone.com/reports/201489
+CSRF Send a message at street-combats.mail.ru
+The URL:https://hackerone.com/reports/196715
+Cross-Site Scripting Stored On Rich Media
+The URL:https://hackerone.com/reports/142540
+Bruteforcing help.nextcloud.com
+The URL:https://hackerone.com/reports/145727
+htaccess file is accesible
+The URL:https://hackerone.com/reports/182017
+Blind SSRF on synthetics.newrelic.com
+The URL:https://hackerone.com/reports/141304
+[careers.informatica.com] Cross Site Script Vulnerability on informatica
+The URL:https://hackerone.com/reports/42537
+Password Forgot/Password Reset Request Bug
+The URL:https://hackerone.com/reports/182267
+Unauthorised access to olx.in user accounts. 
+The URL:https://hackerone.com/reports/155130
+Session not expired When logout [partners.uber.com]
+The URL:https://hackerone.com/reports/231041
+another local file disclosure via ffmpeg
+The URL:https://hackerone.com/reports/243470
+Rate Limit Issue on hosted.weblate.org
+The URL:https://hackerone.com/reports/229825
+bug
+The URL:https://hackerone.com/reports/156941
+Email Spoofing Via /api/v1/users/reset_password
+The URL:https://hackerone.com/reports/244555
+[admin.c2fo.com] Open Redirect
+The URL:https://hackerone.com/reports/39198
+Lack of Password Confirmation When Changing Email
+The URL:https://hackerone.com/reports/245334
+User with guest access can access private merge requests
+The URL:https://hackerone.com/reports/195134
+Privilege escalation - Normal user can somehow make admin to delete shared folders
+The URL:https://hackerone.com/reports/166581
+[rev-app.informatica.com] - XXE via SAML
+The URL:https://hackerone.com/reports/106865
+Nginx server version disclosure
+The URL:https://hackerone.com/reports/182046
+Report title and issue information prepopulated 
+The URL:https://hackerone.com/reports/111868
+Twitter Disconnect CSRF
+The URL:https://hackerone.com/reports/114127
+help.nextcloud Email Address/Username enumeration
+The URL:https://hackerone.com/reports/145734
+\OCA\DAV\CardDAV\ImageExportPlugin allows serving arbitrary data with user-defined or empty mimetype
+The URL:https://hackerone.com/reports/163338
+Attacker can extract list of private project's project members
+The URL:https://hackerone.com/reports/128051
+[compose.mixmax.com] Stored XSS on compose.mixmax.com in contact names.
+The URL:https://hackerone.com/reports/235292
+Stored XSS via Discussion Title and Send as Email attribute in [marketplace.informatica.com]
+The URL:https://hackerone.com/reports/203912
+Debug.log file Exposed to Public \Full Path Disclosure\
+The URL:https://hackerone.com/reports/202939
+SSRF on testing endpoint
+The URL:https://hackerone.com/reports/128685
+[Critical] Subdomain Takeover
+The URL:https://hackerone.com/reports/163790
+Open Redirect in https://exchange.itbit.com - False Positive
+The URL:https://hackerone.com/reports/172696
+Privilege Escalation on a DoD Website
+The URL:https://hackerone.com/reports/199644
+[kb.informatica.com] DOM based XSS in the bindBreadCrumb function
+The URL:https://hackerone.com/reports/189834
+XSS onmouseover 
+The URL:https://hackerone.com/reports/139981
+HTML Injection possible due to bad filter
+The URL:https://hackerone.com/reports/198907
+Reflected XSS in a Navy website
+The URL:https://hackerone.com/reports/188691
+Vulnerable to clickjacking
+The URL:https://hackerone.com/reports/230581
+Email spoofing in 	support@veris.in 
+The URL:https://hackerone.com/reports/147919
+File upload vulnerability on a DoD website
+The URL:https://hackerone.com/reports/191243
+Brute Force Attack against PIN on Card History Page Could Lead to Card Information Discovery / Fraud
+The URL:https://hackerone.com/reports/194318
+[uk.informatica.com] XSS on uk.informatica..com
+The URL:https://hackerone.com/reports/143323
+CSRF
+The URL:https://hackerone.com/reports/226612
+[pokerist.mail.ru] XSS Request-URI
+The URL:https://hackerone.com/reports/178253
+Group admin can remove user from all his groups via API
+The URL:https://hackerone.com/reports/199286
+[zaption.com] Open Redirect
+The URL:https://hackerone.com/reports/45516
+Remote Code Execution (RCE) in a DoD website
+The URL:https://hackerone.com/reports/231926
+Users with guest access can post notes to private merge requests, issues, and snippets
+The URL:https://hackerone.com/reports/195140
+Bypass the resend limit in Send Invites
+The URL:https://hackerone.com/reports/182530
+Reflected XSS on business-blog.zomato.com - Part I
+The URL:https://hackerone.com/reports/137905
+Unrestricted File Download / Path Traversal
+The URL:https://hackerone.com/reports/183925
+RCE (Remote Code Execution) Vulnerability on Ruby
+The URL:https://hackerone.com/reports/218342
+[mercantile.wordpress.org] Reflected XSS via AngularJS Template Injection
+The URL:https://hackerone.com/reports/230234
+[afocusp.informatica.com] Sql injection  afocusp.informatica.com:37777
+The URL:https://hackerone.com/reports/178632
+Missing rate limit on https://underwriter.partner.cuvva.com/login
+The URL:https://hackerone.com/reports/231380
+http://digital.starbucks.com/ Creation of Google G Suite Account on Behalf of starbucks. 
+The URL:https://hackerone.com/reports/191179
+Personal information disclosure on a DoD website
+The URL:https://hackerone.com/reports/188149
+Administrator Access To Management Console
+The URL:https://hackerone.com/reports/182637
+Reflected XSS on a Department of Defense website
+The URL:https://hackerone.com/reports/184286
+Missing filteration of meta characters in full name field on registration page https://demo.weblate.org/accounts/register
+The URL:https://hackerone.com/reports/225901
+Manipulate report timeline activity by using null byte.
+The URL:https://hackerone.com/reports/133322
+Reflected XSS on an Army website
+The URL:https://hackerone.com/reports/184199
+Full Account Takeover 
+The URL:https://hackerone.com/reports/159202
+Local file inclusion vulnerability on a DoD website
+The URL:https://hackerone.com/reports/196448
+Text injection on Auth problem at urbandictionary.com
+The URL:https://hackerone.com/reports/189356
+[marketplace.informatica.com] Persistent XSS through document title
+The URL:https://hackerone.com/reports/181816
+AWS S3 bucket writable for authenticated aws user
+The URL:https://hackerone.com/reports/131468
+Reflected XSS on a Department of Defense website
+The URL:https://hackerone.com/reports/183855
+Stored Cross site scripting
+The URL:https://hackerone.com/reports/145246
+Reflected XSS vector
+The URL:https://hackerone.com/reports/190247
+https://rpm.newrelic.com/login vulnerable to host header attack
+The URL:https://hackerone.com/reports/123078
+Boards leak private label names and desciptions
+The URL:https://hackerone.com/reports/162147
+Authentication bypass vulnerability on a DoD website
+The URL:https://hackerone.com/reports/187705
+Obtain the username & the uid of the one doing the S3 sync on Hackerone
+The URL:https://hackerone.com/reports/173175
+Arbitrary File Reading
+The URL:https://hackerone.com/reports/150783
+Files Drop: WebDAV endpoint is leaking existence of resources
+The URL:https://hackerone.com/reports/187460
+APT repository is signed using weak digest (SHA-1)
+The URL:https://hackerone.com/reports/129138
+bug reporting template encourages users to paste config file with passwords
+The URL:https://hackerone.com/reports/196878
+Reflected XSS in www.olx.ph
+The URL:https://hackerone.com/reports/150746
+[leetfil.es] MSIE, Edge XSS via Request-URI
+The URL:https://hackerone.com/reports/147646
+Exposed Access Control Data Backup Files on DoD Website
+The URL:https://hackerone.com/reports/195544
+User Information Disclosure via REST API
+The URL:https://hackerone.com/reports/197877
+[realty.mail.ru] XSS, SSI Injection
+The URL:https://hackerone.com/reports/159985
+QuickTime Promotion on a DoD website
+The URL:https://hackerone.com/reports/189149
+Loadbalancer + URI XSS #3
+The URL:https://hackerone.com/reports/9703
+Http header injection
+The URL:https://hackerone.com/reports/168254
+Bypassing password authentication of users that have 2FA enabled
+The URL:https://hackerone.com/reports/128085
+[ipm.informatica.com]- Broken Authentication
+The URL:https://hackerone.com/reports/201152
+Missing restriction on string size of Full Name at https://demo.weblate.org/accounts/register/
+The URL:https://hackerone.com/reports/223454
+change bank account numbers
+The URL:https://hackerone.com/reports/90805
+[Android API] SQL injection ( errortoken.json )
+The URL:https://hackerone.com/reports/204050
+Mailgun misconfiguration 
+The URL:https://hackerone.com/reports/244474
+Status Bar Obfuscation
+The URL:https://hackerone.com/reports/175701
+Markdown based stored XSS (IE only)
+The URL:https://hackerone.com/reports/118024
+Subdomain takeover (sales.mixmax.com)
+The URL:https://hackerone.com/reports/233408
+Login CSRF : Login Authentication Flaw
+The URL:https://hackerone.com/reports/229528
+Broken authentication and session management flaw 
+The URL:https://hackerone.com/reports/152080
+Subdomain takeover on https://cloudfront.ubnt.com/ due to non-used CloudFront DNS entry
+The URL:https://hackerone.com/reports/210188
+[cooking.lady.mail.ru] Open Redirect
+The URL:https://hackerone.com/reports/192373
+Lack of Password Confirmation when Changing Password and Email
+The URL:https://hackerone.com/reports/224214
+SMTP command injection
+The URL:https://hackerone.com/reports/137631
+Update php-saml library to 2.10.5
+The URL:https://hackerone.com/reports/213789
+No Rate Limiting at /contact
+The URL:https://hackerone.com/reports/229511
+Cache purge requests are not authenticated
+The URL:https://hackerone.com/reports/154278
+CRLF Injection on https://vpn.mixmax.com
+The URL:https://hackerone.com/reports/234758
+Password Policy Issue
+The URL:https://hackerone.com/reports/246042
+[bot.brew.sh] Full Path Disclosure
+The URL:https://hackerone.com/reports/222096
+Starbucks.com is reachable via ip address thus possible to link any doamin to Starbucks.
+The URL:https://hackerone.com/reports/197585
+Bad content-type in response header when getting document can lead to html injection
+The URL:https://hackerone.com/reports/173721
+Publicy accessible IDRAC instance at api-m.inapp.pushwoosh.com
+The URL:https://hackerone.com/reports/187025
+Stored XSS in Templates>Enahance>Social Badges
+The URL:https://hackerone.com/reports/238906
+Content Spoofing
+The URL:https://hackerone.com/reports/223430
+found a vulnerability in your website
+The URL:https://hackerone.com/reports/202797
+[reStructuredText] XSS in project README files
+The URL:https://hackerone.com/reports/205497
+[touch.lady.mail.ru] CRLF Injection 
+The URL:https://hackerone.com/reports/114198
+Cross Site Request Forgery (CSRF)
+The URL:https://hackerone.com/reports/148156
+[odnoklassniki.ru] XSS via Host
+The URL:https://hackerone.com/reports/39316
+Remote Command Execution on a DoD website
+The URL:https://hackerone.com/reports/213776
+[product360.informatica.com] Unauthenticated Apache Tomcat 8 Installation
+The URL:https://hackerone.com/reports/146436
+CSRF Full Account Takeover
+The URL:https://hackerone.com/reports/152052
+XSS on Meta Tag at https://m.olx.ph
+The URL:https://hackerone.com/reports/157813
+Vulnerable Link Leaks the User Names
+The URL:https://hackerone.com/reports/123089
+Unvalidated/Open Redirect allowing attackers to implement phishing attack
+The URL:https://hackerone.com/reports/172363
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/193936
+Information disclosure on a DoD website
+The URL:https://hackerone.com/reports/184076
+Directory Listing of all the resource files of olx.com.eg 
+The URL:https://hackerone.com/reports/175760
+SSRF on synthetics.newrelic.com permitting access to sensitive data
+The URL:https://hackerone.com/reports/141682
+Reward Money Leakage
+The URL:https://hackerone.com/reports/149435
+HTTP Response Splitting(CRLF injection) in bi.owox.com
+The URL:https://hackerone.com/reports/171473
+Session Management Flaw
+The URL:https://hackerone.com/reports/152944
+[RDoc] XSS in project README files
+The URL:https://hackerone.com/reports/200693
+Multiple vulnerabilities in http://blog.dubizzle.com/uae
+The URL:https://hackerone.com/reports/188279
+No email verification required when we change email from settings
+The URL:https://hackerone.com/reports/147182
+Lack of account link warning enables dropbox hijacking
+The URL:https://hackerone.com/reports/139099
+Reflected XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/183835
+[parc.informatica.com] Reflected Cross Site Scripting and Open Redirect
+The URL:https://hackerone.com/reports/178278
+Missing restriction on string size of contact field
+The URL:https://hackerone.com/reports/236188
+Host Header Injection/Redirection Attack
+The URL:https://hackerone.com/reports/157465
+[greenhouse.io] CRLF Injection / Insecure nginx configuration
+The URL:https://hackerone.com/reports/25275
+IDOR in tender.mail.ru leading to Information Disclosure
+The URL:https://hackerone.com/reports/226640
+Open redirects protection bypass
+The URL:https://hackerone.com/reports/243062
+Broken Authentication & Session Management (Login Bypass) at support.owox.com
+The URL:https://hackerone.com/reports/222082
+Invalid request may lead content spoofing for phishing
+The URL:https://hackerone.com/reports/213056
+XSS via SVG file
+The URL:https://hackerone.com/reports/212253
+Inadequate access controls in "Vote" functionality???
+The URL:https://hackerone.com/reports/137503
+Content spoofing due to the improper behavior of the 403 page
+The URL:https://hackerone.com/reports/214340
+[ml.money.mail.ru] Open Redirect
+The URL:https://hackerone.com/reports/192375
+Password reset Token not expiring 
+The URL:https://hackerone.com/reports/220185
+[Airship CMS] Local File Inclusion - RST Parser
+The URL:https://hackerone.com/reports/179034
+Instagram OAuth2 Implementation Leaks Access Token; Allows for Cross-Site Script Inclusion (XSSI)
+The URL:https://hackerone.com/reports/138270
+Clickjacking on authorized page https://wakatime.com/share/embed
+The URL:https://hackerone.com/reports/244967
+CSRF in delete advertisement on olx.com.eg
+The URL:https://hackerone.com/reports/178384
+heap-buffer-overflow (READ of size 1) in cpptoml::parser::consume_whitespace()
+The URL:https://hackerone.com/reports/240659
+Reflected XSS on a DoD website
+The URL:https://hackerone.com/reports/183871
+GFM renderer leaks external issue tracker URL of private project
+The URL:https://hackerone.com/reports/133717
+User Enumeration. 
+The URL:https://hackerone.com/reports/165894
+XSS on pornhubselect.com
+The URL:https://hackerone.com/reports/222556
+CSRF in account configuration leads to complete account compromise
+The URL:https://hackerone.com/reports/150586
+Reflected XSS in Zomato Mobile - category parameter
+The URL:https://hackerone.com/reports/230119
+Potential sub-domain hijacking
+The URL:https://hackerone.com/reports/178537
+[monitor.sjc.dropbox.com] CRLF Injection
+The URL:https://hackerone.com/reports/39261
+Server version disclosure
+The URL:https://hackerone.com/reports/167041
+ShopifyAPI is vulnerable to timing attacks.
+The URL:https://hackerone.com/reports/224096
+No rate limit when creating new goals [https://wakatime.com/goals]
+The URL:https://hackerone.com/reports/244813
+Invalid username updating
+The URL:https://hackerone.com/reports/170301
+Local File Inclusion Vulnerability in Concrete5 version 5.7.3.1
+The URL:https://hackerone.com/reports/59665
+Remote client memory corruption in ssl_add_clienthello_tlsext()
+The URL:https://hackerone.com/reports/175766
+Double-free in X509 parsing
+The URL:https://hackerone.com/reports/175230
+XSS @ *.olx.com.ar
+The URL:https://hackerone.com/reports/150560
+Cross-site scripting (XSS) vulnerability on a DoD website
+The URL:https://hackerone.com/reports/184495
+XSS on IOS app via HTML rendering
+The URL:https://hackerone.com/reports/157434
+Privilege escalation-User who does not have access is able to add notes to the contact
+The URL:https://hackerone.com/reports/235059
+Stored XSS in Express Objects - Concrete5 v8.1.0
+The URL:https://hackerone.com/reports/221325
+No rate limiting for confirmation email, can spam anyone with confirmation emails
+The URL:https://hackerone.com/reports/245147
+[qpt.mail.ru] CRLF Injection / Open Redirect
+The URL:https://hackerone.com/reports/181939
+CSRF - Delete all empty application policy
+The URL:https://hackerone.com/reports/123092
+Stored number of clicks in the Deposits button
+The URL:https://hackerone.com/reports/147188
+Blind SQLi in a DoD Website
+The URL:https://hackerone.com/reports/196300
+No Rate Limitting at Change Password
+The URL:https://hackerone.com/reports/223694
+Open Redirection at https://it.mail.ru/
+The URL:https://hackerone.com/reports/219599
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/189069
+Account Takeover using Third party Auth CSRF
+The URL:https://hackerone.com/reports/225653
+Authentication Bypass in Updating Personal Information
+The URL:https://hackerone.com/reports/146129
+Leaking license key in source code
+The URL:https://hackerone.com/reports/154855
+CRLF Injection on openvpn.svc.ubnt.com
+The URL:https://hackerone.com/reports/232327
+Stored XSS in Filters
+The URL:https://hackerone.com/reports/141114
+External links should use rel="noopener" or use the redirect service
+The URL:https://hackerone.com/reports/124620
+Clickjacking
+The URL:https://hackerone.com/reports/200419
+UI Redressing ( ClickJacking ) Issue on Information submit form 
+The URL:https://hackerone.com/reports/163753
+[rabota.mail.ru] Open Redirect
+The URL:https://hackerone.com/reports/87804
+HTML injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/191902
+Unsecured Grafana instance
+The URL:https://hackerone.com/reports/182234
+Persistent XSS on public project page
+The URL:https://hackerone.com/reports/129736
+Login Via FB Leads To Create A New Account Instead Of Loging In
+The URL:https://hackerone.com/reports/129830
+Abuse of API can Lead to DoS
+The URL:https://hackerone.com/reports/165989
+Labels created in private projects are leaked
+The URL:https://hackerone.com/reports/132777
+Information leakage on a Department of Defense website
+The URL:https://hackerone.com/reports/186189
+Reflected XSS in [olx.qa]
+The URL:https://hackerone.com/reports/191332
+Reflected XSS on frag.mail.ru
+The URL:https://hackerone.com/reports/214642
+Password Reset emails missing TLS leads account takeover
+The URL:https://hackerone.com/reports/173251
+[kb.informatica.com] Stored XSS
+The URL:https://hackerone.com/reports/170369
+DOS Report  FILE html inside <code> in markdown
+The URL:https://hackerone.com/reports/127827
+XSS yaman.olx.ph
+The URL:https://hackerone.com/reports/151147
+Email spoofing-fake mail from your mail domain server 
+The URL:https://hackerone.com/reports/163501
+Subdomain Takeover of Brave.com
+The URL:https://hackerone.com/reports/175397
+Unauthenticated CSRF(User can input any value for CSRF Token)
+The URL:https://hackerone.com/reports/143321
+Username can be used to trick the victim on the name of www.gratipay.com
+The URL:https://hackerone.com/reports/163904
+You can simply just use passwords that simply are as 123456
+The URL:https://hackerone.com/reports/223374
+Error page Text Injection.
+The URL:https://hackerone.com/reports/130914
+Bypass verification of email while creating account(No rate limiting enable for verification code)
+The URL:https://hackerone.com/reports/64666
+ Spam Some one using (user.saveInvite) system
+The URL:https://hackerone.com/reports/182089
+ DoS vulnerability in mod_auth_digest CVE-2016-2161
+The URL:https://hackerone.com/reports/194065
+Your two domain login email address are disclosed in 
+The URL:https://hackerone.com/reports/231749
+Sending Unlimited Mails To Anybody With Easy Social Share Buttons Plugin
+The URL:https://hackerone.com/reports/148112
+Reflective XSS at m.olx.ph
+The URL:https://hackerone.com/reports/177230
+nginx server vulnerable
+The URL:https://hackerone.com/reports/137230
+Error Page Text Injection.
+The URL:https://hackerone.com/reports/130850
+SQL Injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/186156
+XSS vulnerability on an Army website
+The URL:https://hackerone.com/reports/187881
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/200125
+CSRF Token Bypass in Account Deletion
+The URL:https://hackerone.com/reports/182487
+Issue with password reset functionality [Minor]
+The URL:https://hackerone.com/reports/149027
+Session Not Expired On Logout
+The URL:https://hackerone.com/reports/244875
+Stored XSS on contact name
+The URL:https://hackerone.com/reports/152069
+Information About Your System(Sensitive Directories)
+The URL:https://hackerone.com/reports/200572
+[network.informatica.com] The login form XSS via the referer value
+The URL:https://hackerone.com/reports/190016
+HTTP - Basic Authentication on https://www.stellar.org/wp-login.php
+The URL:https://hackerone.com/reports/239479
+CSV Injection in sub_accounts.csv
+The URL:https://hackerone.com/reports/127032
+No redirect uri for Twitter Oath resulting in token leak
+The URL:https://hackerone.com/reports/244958
+Reflected XSS in a DoD Website
+The URL:https://hackerone.com/reports/217108
+Webhook allows sending payload using insecure HTTP protocol
+The URL:https://hackerone.com/reports/158541
+SQL Injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/201512
+Possible Subdomain Takeover at http://production.s3.rubygems.org/ pointing to Fastly 
+The URL:https://hackerone.com/reports/178409
+Possible Subdomain Takeover
+The URL:https://hackerone.com/reports/233402
+Remote code execution vulnerability on a DoD website
+The URL:https://hackerone.com/reports/192567
+HTML injection in Desktop Client
+The URL:https://hackerone.com/reports/206877
+[careers.informatica.com] XSS on "isJTN"
+The URL:https://hackerone.com/reports/190020
+Possible CSRF during external programs
+The URL:https://hackerone.com/reports/174470
+Reflective XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/183854
+Wordpress: Directory Traversal / Denial of Serivce
+The URL:https://hackerone.com/reports/163421
+Cross-site request forgery vulnerability on a DoD website
+The URL:https://hackerone.com/reports/191608
+Bruteforce INVITE codes easy way
+The URL:https://hackerone.com/reports/144877
+Open redirect while disconnecting authenticated account
+The URL:https://hackerone.com/reports/224317
+Session Management
+The URL:https://hackerone.com/reports/145300
+Reflected XSS on Branch domain
+The URL:https://hackerone.com/reports/230681
+Additonal stored XSS in Add note/Expected payment Date
+The URL:https://hackerone.com/reports/121903
+Reflected XSS on a DoD website
+The URL:https://hackerone.com/reports/184750
+Accessable Htaccess
+The URL:https://hackerone.com/reports/171272
+SQL Injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/216699
+Click Jacking
+The URL:https://hackerone.com/reports/163888
+Missing Rate Limit for Current Password field in nextcloud.com
+The URL:https://hackerone.com/reports/199714
+Sensitive Support Mail Disclosure
+The URL:https://hackerone.com/reports/234947
+Outdated Jenkins server hosted at OwnCloud.org
+The URL:https://hackerone.com/reports/208566
+Version 4.7.2 of wordpress is vulnerable
+The URL:https://hackerone.com/reports/211206
+yaman.olx.ph/wordpress is using a very vulnerable version of WordPress and contains directory listing
+The URL:https://hackerone.com/reports/202918
+Reflected XSS on a Navy website
+The URL:https://hackerone.com/reports/183878
+[Textile] XSS in project README files
+The URL:https://hackerone.com/reports/205498
+Harden resend throttling
+The URL:https://hackerone.com/reports/108645
+Способ узнать имя человека удаленной страницы
+The URL:https://hackerone.com/reports/193419
+[api.owncloud.org] CRLF Injection
+The URL:https://hackerone.com/reports/154306
+http://lists.parrotsec.org vulnerable to MITM
+The URL:https://hackerone.com/reports/238344
+URI scheme bypass in mail app lead to HTML content spoof and opener control
+The URL:https://hackerone.com/reports/175085
+Weak password requirement on techsupport.teradici.com 
+The URL:https://hackerone.com/reports/227659
+XSS and Open-Redirect via SVG 
+The URL:https://hackerone.com/reports/158034
+Email authentication token fails to expire and can be used multiple times for same Email address  on Trello.com
+The URL:https://hackerone.com/reports/213492
+UI Redressing on Embedded Charts
+The URL:https://hackerone.com/reports/244697
+Remote command execution (RCE) vulnerability on a DoD website
+The URL:https://hackerone.com/reports/202652
+XSS on a DoD website
+The URL:https://hackerone.com/reports/184759
+Several XSS affecting Zomato.com and developers.zomato.com
+The URL:https://hackerone.com/reports/114631
+Flash XSS on homepage fliptilescroller
+The URL:https://hackerone.com/reports/172821
+Read Application Name , Subscribers Count 
+The URL:https://hackerone.com/reports/184057
+Directory listening enabled in: 88.198.160.130
+The URL:https://hackerone.com/reports/156510
+[otus.p.mail.ru] Full Path Disclosure
+The URL:https://hackerone.com/reports/99262
+[marketplace.informatica.com]- Stored XSS on Image title and Edit Property
+The URL:https://hackerone.com/reports/202951
+Open-redirect on login.xero.com 
+The URL:https://hackerone.com/reports/122054
+Missing SPF Flags on nextcloud.com
+The URL:https://hackerone.com/reports/205250
+Information disclosure on a DoD website
+The URL:https://hackerone.com/reports/189414
+User Information Disclosure via REST API
+The URL:https://hackerone.com/reports/197786
+[tanks.mail.ru] Internet Explorer XSS via Request-URI
+The URL:https://hackerone.com/reports/66423
+Session Hijacking 
+The URL:https://hackerone.com/reports/167460
+[hosted.weblate.org]Account Takeover
+The URL:https://hackerone.com/reports/223637
+Adobe XSS
+The URL:https://hackerone.com/reports/50389
+Option method enabled
+The URL:https://hackerone.com/reports/230194
+[skyliner.io / qa.skyliner.io] Open Redirect
+The URL:https://hackerone.com/reports/163124
+Captcha Bypass at Email Reset can lead to Spamming users.
+The URL:https://hackerone.com/reports/229541
+Activation tokens are not expiring
+The URL:https://hackerone.com/reports/223339
+Способ узнать имя человека удаленной страницы 2
+The URL:https://hackerone.com/reports/193759
+Betting more than max amount
+The URL:https://hackerone.com/reports/147237
+Clickjacking docs.weblate.org
+The URL:https://hackerone.com/reports/223391
+Missing filteration of meta characters in all full name field on wakatime.com
+The URL:https://hackerone.com/reports/245236
+HTTP trace method is enabled on gip.rocks
+The URL:https://hackerone.com/reports/203384
+Possilbe Sub Domain takever at prestashop.algolia.com
+The URL:https://hackerone.com/reports/173417
+Password Reset Link issue
+The URL:https://hackerone.com/reports/161924
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/189458
+refelected Xss on https://gmid.gm.com/gmid/jsp/GMIDInitialLogin.jsp
+The URL:https://hackerone.com/reports/109461
+Open Redirect
+The URL:https://hackerone.com/reports/219458
+Reflected cross-site scripting (XSS) vulnerability on a DoD website
+The URL:https://hackerone.com/reports/191381
+Information disclosure via policy update notifications after removal from program
+The URL:https://hackerone.com/reports/177484
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/196482
+null pointer dereference in Sass::Eval::operator()(Sass::Map*)
+The URL:https://hackerone.com/reports/221287
+Remote file inclusion vulnerability on a DoD website
+The URL:https://hackerone.com/reports/208481
+Open Redirect in a DoD website
+The URL:https://hackerone.com/reports/187006
+CSRF vulnerability that allows an attacker to purge plugin metric data
+The URL:https://hackerone.com/reports/157270
+Remote code execution (RCE) in multiple DoD websites
+The URL:https://hackerone.com/reports/226245
+Old password can be new password
+The URL:https://hackerone.com/reports/229577
+Expired SSL certificate 
+The URL:https://hackerone.com/reports/163342
+Gitlab.com is vulnerable to reverse tabnabbing. (#2)
+The URL:https://hackerone.com/reports/212629
+XSS in https://www.coursera.org/courses/
+The URL:https://hackerone.com/reports/127163
+Server-side include injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/192931
+[XSS] sandbox.veris.in
+The URL:https://hackerone.com/reports/137119
+Content spoofing due to the improper behavior of the not-found message 
+The URL:https://hackerone.com/reports/144084
+Violation of secure design principles on a DoD website
+The URL:https://hackerone.com/reports/188124
+Open redirects protection bypass
+The URL:https://hackerone.com/reports/236599
+Content Spoofing or Text Injection in (403 forbidden page injection) and Nginx version disclosure via response header
+The URL:https://hackerone.com/reports/203391
+[Subgroups] Unprivileged User Can Disclose Private Group Names
+The URL:https://hackerone.com/reports/215384
+Transferring incorrect data to the http://gip.rocks/v1 endpoint with correct Content-Type leads to local paths disclosure through the error message
+The URL:https://hackerone.com/reports/219601
+[informatica.com] Blind SQL Injection
+The URL:https://hackerone.com/reports/117073
+Content spoofing due to the improper behavior of the 403 page
+The URL:https://hackerone.com/reports/212770
+Reflected File Download on recipe list search
+The URL:https://hackerone.com/reports/158505
+Cross-site scripting (XSS) vulnerability on a DoD website
+The URL:https://hackerone.com/reports/227643
+Missing Account Deletion Notification
+The URL:https://hackerone.com/reports/245311
+target="_blank" Vulnerability Resulting in Critical Phishing Vector
+The URL:https://hackerone.com/reports/165136
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/195636
+Content injection on 404 error page at faspex.uber.com
+The URL:https://hackerone.com/reports/155685
+REFLECTED CROSS SITE SCRIPTING IN OLX
+The URL:https://hackerone.com/reports/151305
+Reflected XSS on a DoD website
+The URL:https://hackerone.com/reports/193481
+Stored XSS on new Calling plugin (spreed)
+The URL:https://hackerone.com/reports/190870
+Missing SPF Flags
+The URL:https://hackerone.com/reports/244432
+XSS on Home page olx.com.ar via auto save search text
+The URL:https://hackerone.com/reports/151691
+Information Disclosure on demo.weblate.org
+The URL:https://hackerone.com/reports/229620
+Attacker can post notes on private MR, snippets, and issues
+The URL:https://hackerone.com/reports/134299
+these are my old reports and still i have not receive any good replys, these all are Cross Site Scripting(XSS) issues: POC1: https://www.youtube.com/w
+The URL:https://hackerone.com/reports/157889
+Directory Listening
+The URL:https://hackerone.com/reports/151772
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/202619
+No notificatoin sent on email after account deletion.
+The URL:https://hackerone.com/reports/244971
+CSRF in Cloudflare login
+The URL:https://hackerone.com/reports/8767
+Stored but [SELF] XSS in mercantile.wordpress.org
+The URL:https://hackerone.com/reports/222224
+[doc.owncloud.org] CRLF Injection
+The URL:https://hackerone.com/reports/154275
+Reflected XSS and something more Store XSS too
+The URL:https://hackerone.com/reports/134004
+Missing Rate Limiting protection leading to mass triggering of e-mails
+The URL:https://hackerone.com/reports/224927
+invalid homepage URL causes 'uncaught typeerror' or blank state
+The URL:https://hackerone.com/reports/177184
+prevent null bytes in email field
+The URL:https://hackerone.com/reports/150917
+Insecure direct object reference vulnerability on a DoD website
+The URL:https://hackerone.com/reports/184933
+Misconfiguration: Missing Custom Error Page (CWE-12 & CWE-756)
+The URL:https://hackerone.com/reports/228873
+xss found in zomato
+The URL:https://hackerone.com/reports/240989
+Android - Possible to intercept broadcasts about uploaded files
+The URL:https://hackerone.com/reports/167481
+session id missing secure flag - Hosted Website
+The URL:https://hackerone.com/reports/224379
+Password reset vulnerability on a DoD website
+The URL:https://hackerone.com/reports/194308
+Wordpress Version Disclosure Bug On Nextcloud
+The URL:https://hackerone.com/reports/188132
+Open redirection on login
+The URL:https://hackerone.com/reports/123172
+The special code in editor has no Authority control and can lead to Information Disclosure
+The URL:https://hackerone.com/reports/221950
+Full Sub Domain Takeover at s3.websummit.net
+The URL:https://hackerone.com/reports/173412
+Business logic Failure - Browser cache management and logout vulnerability in Certly
+The URL:https://hackerone.com/reports/158270
+Arbitary file download vulnerability on a DoD website
+The URL:https://hackerone.com/reports/186326
+SQL Injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/192079
+Cross Site Scripting In Profile Statement 
+The URL:https://hackerone.com/reports/162120
+SQL Injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/192110
+stats.nextcloud.com: Content Injection
+The URL:https://hackerone.com/reports/145375
+Review remote code execution in SwiftMailer
+The URL:https://hackerone.com/reports/194564
+SQL injection vulnerability in a DoD website
+The URL:https://hackerone.com/reports/195051
+Weblate |Security Misconfiguration| Method Enumeration Possible on domain 
+The URL:https://hackerone.com/reports/230648
+Public profile is vulnerable to stored XSS / Facebook Token can be stolen
+The URL:https://hackerone.com/reports/175122
+Open redirect while disconnecting Email
+The URL:https://hackerone.com/reports/238117
+Full Path Disclosure
+The URL:https://hackerone.com/reports/47876
+Reputation Manipulation (Theoretical)
+The URL:https://hackerone.com/reports/132057
+Reflected XSS на https://aw.mail.ru/news/
+The URL:https://hackerone.com/reports/90083
+Primary Cloning of Envoy web application resulting confidential information disclosure
+The URL:https://hackerone.com/reports/194934
+API Webhooks Fire And Are Unlisted After Permissions Removed
+The URL:https://hackerone.com/reports/227230
+Information Disclosure of .htaccess file in Private Server/Subdomain
+The URL:https://hackerone.com/reports/163106
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/217747
+Privilege escalation..., or not?!
+The URL:https://hackerone.com/reports/345
+Reflected XSS at yaman.olx.ph
+The URL:https://hackerone.com/reports/151258
+Dav sharing permissions issue
+The URL:https://hackerone.com/reports/174896
+Bypassing quota limit 
+The URL:https://hackerone.com/reports/173622
+Time Based SQL Injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/189851
+[opensource.mail.ru] system accounts enumeration
+The URL:https://hackerone.com/reports/153178
+SQL injection vulnerability on a DoD website
+The URL:https://hackerone.com/reports/193436
+Limited code execution vulnerability on a DoD website
+The URL:https://hackerone.com/reports/229199
+Improper Session Management
+The URL:https://hackerone.com/reports/139178
+Phone verification code fails to expire and can be used multiple times also in different accounts to verify same cellphone number on Trello.com
+The URL:https://hackerone.com/reports/213515
+Order-phishing via Payment ID URL
+The URL:https://hackerone.com/reports/186862
+Arbitary file download vulnerability on a DoD website
+The URL:https://hackerone.com/reports/230870
+Proxy discloses internal web servers
+The URL:https://hackerone.com/reports/1409
+CORS Misconfiguration on www.zomato.com
+The URL:https://hackerone.com/reports/168574
+Flash XSS on Buick_RotatingMasthead_JellyBeanSlider.swf
+The URL:https://hackerone.com/reports/179826
+[dashboard.signwithenvoy.com] Open Redirect
+The URL:https://hackerone.com/reports/66384
+2 vulns 
+The URL:https://hackerone.com/reports/163677
+CSRF in changing settings of Basic Google Maps Placemarks
+The URL:https://hackerone.com/reports/153580
+[marketplace.informatica.com] Profile stored XSS
+The URL:https://hackerone.com/reports/190217
+Security Vulnerability - SMTP protection not used
+The URL:https://hackerone.com/reports/234701
+Reflected XSS on business-blog.zomato.com - Part 2
+The URL:https://hackerone.com/reports/137906
+Attacker can delete (and read) private project webhooks
+The URL:https://hackerone.com/reports/134292
+[w1.dwar.ru] Core Dump
+The URL:https://hackerone.com/reports/99686
+CSRF AT INVITING PEOPLE THOUGH PHONE NUMBER
+The URL:https://hackerone.com/reports/113865
+Self-XSS can be achieved in the editor link using filter bypass
+The URL:https://hackerone.com/reports/229735
+xss на нескольких форумах игр от mail.ru (Cross-Site Scripting)
+The URL:https://hackerone.com/reports/86069
+[now.informatica.com] Reflective Xss
+The URL:https://hackerone.com/reports/81191
+No authorization required in iOS device web-application
+The URL:https://hackerone.com/reports/148538
+GIT Detected
+The URL:https://hackerone.com/reports/221298
+Reflected XSS on a DoD website
+The URL:https://hackerone.com/reports/194294
+Potentially vulnerable version of Apache software in and default files on https://iandunn.name/
+The URL:https://hackerone.com/reports/161459
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/226427
+Enumeration of users
+The URL:https://hackerone.com/reports/761
+The web app's forgot password page is vulnerable to text injection/content spoofing
+The URL:https://hackerone.com/reports/159213
+X-Content-Type-Options header missing at Auth Login
+The URL:https://hackerone.com/reports/151786
+Improper validation of unicode characters
+The URL:https://hackerone.com/reports/229483
+HTML Injection/Load Images vulnerability on a DoD website
+The URL:https://hackerone.com/reports/195356
+coinbase Email leak while sending and requesting
+The URL:https://hackerone.com/reports/168289
+Sensitive information contained with New Relic APM iOS application
+The URL:https://hackerone.com/reports/130739
+[Repository Import] Open Redirect via "continue[to]" parameter 
+The URL:https://hackerone.com/reports/215970
+Bypass OTP verification when placing Order
+The URL:https://hackerone.com/reports/142221
+[alerts.newrelic.com] Scanning local network via notification channel
+The URL:https://hackerone.com/reports/153634
+[https://wakatime.com/reset_password/] Leaking password reset token via referrer
+The URL:https://hackerone.com/reports/244434
+Confidential issues leaked in public projects when attached to milestone
+The URL:https://hackerone.com/reports/134300
+Amazon Bucket Accessible (http://legalrobot.s3.amazonaws.com/)
+The URL:https://hackerone.com/reports/163599
+https://admin.corp.cuvva.co/ is vulnerable to Clickjacking attacks due to missing X-Frame-Options 
+The URL:https://hackerone.com/reports/231434
+[marketplace.informatica.com] Open Redirect
+The URL:https://hackerone.com/reports/123625
+nextcloud.com: Content Injection  Custom 404 Error
+The URL:https://hackerone.com/reports/145344
+JIRA account misconfig causes internal info leak
+The URL:https://hackerone.com/reports/139970
+Gitlab.com is vulnerable to reverse tabnabbing via AsciiDoc links. (#3)
+The URL:https://hackerone.com/reports/213114
+Default credentials on a DoD website
+The URL:https://hackerone.com/reports/192074
+Internal server error 500 at log.veris.in 
+The URL:https://hackerone.com/reports/157986
+Content spoofing due to the improper behavior of the 403 page in Private Server
+The URL:https://hackerone.com/reports/177335
+MailPoet Newsletters <= 2.7.2 - Authenticated Reflected Cross-Site Scripting (XSS)
+The URL:https://hackerone.com/reports/200355
+Email Leakage in staging environment
+The URL:https://hackerone.com/reports/236390
+Persistent XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/187759
+Reflected XSS in olx.pt
+The URL:https://hackerone.com/reports/206125
+IDOR create accounts and verify them with original account email
+The URL:https://hackerone.com/reports/244636
+Persistent input validation mail encoding vulnerability  in the "just followed you" email notification.
+The URL:https://hackerone.com/reports/114879
+Stored xss
+The URL:https://hackerone.com/reports/187380
+CSRF : Reset API 
+The URL:https://hackerone.com/reports/223333
+Login using disconnected google account i.e login using old email id
+The URL:https://hackerone.com/reports/223427
+XSS in flashmediaelement.swf (business-blog.zomato.com)
+The URL:https://hackerone.com/reports/200351
+Bypass file access control vulnerability on a DoD website
+The URL:https://hackerone.com/reports/203311
+Wordpress  flashmediaelement.swf XSS on stopthehacker.com  
+The URL:https://hackerone.com/reports/137964
+Reflected XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/187822
+Stored XSS in RSS Feeds Title (Concrete5 v8.1.0)
+The URL:https://hackerone.com/reports/221380
+XSS in content type header when uploading file.
+The URL:https://hackerone.com/reports/202681
+RC4 cipher suit in use in vpn.corp.cuvva.co
+The URL:https://hackerone.com/reports/231068
+Email ID Disclosure.
+The URL:https://hackerone.com/reports/146106
+Missing restriction on string size
+The URL:https://hackerone.com/reports/229796
+Bookmarks: Delete all existing bookmarks of a user
+The URL:https://hackerone.com/reports/154529
+Content Spoofing/Text Injection in nextcloud.com
+The URL:https://hackerone.com/reports/213360
+Insecure Account Removal
+The URL:https://hackerone.com/reports/223355
+Remote Code Execution (RCE) in a DoD website
+The URL:https://hackerone.com/reports/212022
+[mrgs.mail.ru] Internet Explorer XSS via Request-URI
+The URL:https://hackerone.com/reports/66422
+Email Address Enumeration
+The URL:https://hackerone.com/reports/144803
+User enumeration possible from log-in timing difference
+The URL:https://hackerone.com/reports/127026
+DOM XSS в /activation.php?act=activate_mobile
+The URL:https://hackerone.com/reports/146939
+full path disclosure vulnerability at https://security.olx.com/*
+The URL:https://hackerone.com/reports/159481
+[demo.weblate.org] Stored Self-XSS via Editor Link in Profile
+The URL:https://hackerone.com/reports/223331
+Host header Injection
+The URL:https://hackerone.com/reports/221908
+Host Header Poisoning  in thisdata.com
+The URL:https://hackerone.com/reports/137181
+Access to completion page without performing any action
+The URL:https://hackerone.com/reports/223846
+[marketplace.informatica.com] Search XSS
+The URL:https://hackerone.com/reports/200034
+Requested and received edit access to Google form
+The URL:https://hackerone.com/reports/130440
+Rate Limit Bypass on login Page
+The URL:https://hackerone.com/reports/224460
+Content Spoofing in error message
+The URL:https://hackerone.com/reports/223456
+[oneclickdrsfdc-test.informatica.com] Tomcat Example Scripts Exposed Unauthenticated
+The URL:https://hackerone.com/reports/147161
+List of a ton of internal twitter servers available on GitHub
+The URL:https://hackerone.com/reports/137404
+AWS Signature Disclosure in www.digitalsellz.com allows access to S3
+The URL:https://hackerone.com/reports/170052
+Private snippets in public / internal projects leaked though GitLab API
+The URL:https://hackerone.com/reports/134305
+Name, email, phone and more disclosure on user ID (API)
+The URL:https://hackerone.com/reports/171917
+Logout CSRF
+The URL:https://hackerone.com/reports/223329
+Email Spoofing
+The URL:https://hackerone.com/reports/200762
+manipulate the Practical HTTP Host header 
+The URL:https://hackerone.com/reports/103546
+Clickjacking In https://demo.nextcloud.com
+The URL:https://hackerone.com/reports/222762
+CSV Injection with the CSV export feature
+The URL:https://hackerone.com/reports/223344
+SSRF at apps.nextcloud.com/developer/apps/releases/new
+The URL:https://hackerone.com/reports/213358
+No BruteForce Protection
+The URL:https://hackerone.com/reports/223337
+Dropbox apps Server side request forgery
+The URL:https://hackerone.com/reports/137229
+XSS in private message
+The URL:https://hackerone.com/reports/4826
+Create New User Whilst Logged On
+The URL:https://hackerone.com/reports/193478
+Information Disclosure on lite.uber.com
+The URL:https://hackerone.com/reports/133375
+XML entity expansion using svg file 
+The URL:https://hackerone.com/reports/229980
+Content-Length restriction bypass to heap overflow in gip.rocks.
+The URL:https://hackerone.com/reports/214449
+SWEET32 TLS attack
+The URL:https://hackerone.com/reports/199438
+Back Refresh Attack after registration and successful logout
+The URL:https://hackerone.com/reports/147744
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/195638
+Open redirect vulnerability in a DoD website
+The URL:https://hackerone.com/reports/187969
+Secure Pages Include Mixed Content
+The URL:https://hackerone.com/reports/185835
+ SSL/TLS Vulnerability at khanacademy.org
+The URL:https://hackerone.com/reports/207457
+XSS in people.uber.com
+The URL:https://hackerone.com/reports/140791
+Autoclose can close any task regardless of policies/spaces
+The URL:https://hackerone.com/reports/220909
+Reflected XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/198259
+Data exports stored on S3 can be scraped easily
+The URL:https://hackerone.com/reports/2746
+[corp.mail.ru] CRLF Injection / Insecure nginx configuration
+The URL:https://hackerone.com/reports/15492
+API Does Not Apply Access Controls to Translations
+The URL:https://hackerone.com/reports/232994
+Bypassing Phone Verification For Posting AD On OLX
+The URL:https://hackerone.com/reports/165854
+CSRF to Connect third party Account
+The URL:https://hackerone.com/reports/225100
+Remote code execution vulnerability on a DoD website
+The URL:https://hackerone.com/reports/203600
+Takeover of an account via reset password options after removing the account
+The URL:https://hackerone.com/reports/230076
+Enumeration of subscribed users and unauthenticated email unsubscriptions on https://newsletter.nextcloud.com/?p=unsubscribe
+The URL:https://hackerone.com/reports/145396
+Reflected XSS vulnerability on a DoD website
+The URL:https://hackerone.com/reports/184125
+Subdomain Take over & username enemuration
+The URL:https://hackerone.com/reports/172024
+Login page password - guessing attack
+The URL:https://hackerone.com/reports/244909
+Email Address Leak
+The URL:https://hackerone.com/reports/123170
+Information disclosure vulnerability in a DoD website
+The URL:https://hackerone.com/reports/186308
+Non secure requests at guard.certly.io not upgrading to https
+The URL:https://hackerone.com/reports/161932
+Information disclosure vulnerability on a DoD website
+The URL:https://hackerone.com/reports/186307
+Use Partner/Driver App Without Being Activated
+The URL:https://hackerone.com/reports/127085
+Content Injection error page
+The URL:https://hackerone.com/reports/148952
+Flash XSS on global nav
+The URL:https://hackerone.com/reports/172809
+Reflected XSS at m.olx.ph
+The URL:https://hackerone.com/reports/175410
+DNS Misconfiguration
+The URL:https://hackerone.com/reports/186316
+[otus.p.mail.ru] CRLF Injection
+The URL:https://hackerone.com/reports/99268
+Nextcloud Server Remote Command Execution
+The URL:https://hackerone.com/reports/226896
+WordPress Vulnerabilities: User Enumeration, Vulnerable Akismet Plugin, XML-RPC Interface available
+The URL:https://hackerone.com/reports/146093
+don't allow directory browsing on grtp.co
+The URL:https://hackerone.com/reports/151295
+No rate limiting at POST /2/2017-05-22/send_identifier_token
+The URL:https://hackerone.com/reports/230674
+Running 2 accounts with a single email
+The URL:https://hackerone.com/reports/224072
+Session cookie without secure flag on https://underwriter.partner.cuvva.com
+The URL:https://hackerone.com/reports/236533
+Reflected XSS on hi-tech.mail.ru
+The URL:https://hackerone.com/reports/100755
+Reflected XSS.
+The URL:https://hackerone.com/reports/96381
+XSS in "Questions" search module
+The URL:https://hackerone.com/reports/3420
+CSP Policy Bypass and javascript execution
+The URL:https://hackerone.com/reports/241192
+Cross-site scripting vulnerability on a DoD website
+The URL:https://hackerone.com/reports/184575
+Setting a password with a single character
+The URL:https://hackerone.com/reports/223851
+Weblate- Banner Grabbing-Ngnix Server version
+The URL:https://hackerone.com/reports/230633
+Create Multiple Account Using Similar X-CSRF token
+The URL:https://hackerone.com/reports/155726
+Web server is vulnerable to Beast Attack
+The URL:https://hackerone.com/reports/223350
+nginx version disclosure on downloads.gratipay.com
+The URL:https://hackerone.com/reports/157507
+Complete or Edit Another User's Profile
+The URL:https://hackerone.com/reports/123731
+No Security check at changing password and at adding mobile number which leads to account takeover and spam
+The URL:https://hackerone.com/reports/207552
+Stored XSS templates -> 'call for action' feature
+The URL:https://hackerone.com/reports/237927
+GlobaLeaks is vulnerable to timing attacks.
+The URL:https://hackerone.com/reports/194647
+Null Password - Setting a new password doesn't check for empty spaces
+The URL:https://hackerone.com/reports/223618
+ Email Spoofing
+The URL:https://hackerone.com/reports/206359
+Reflected XSS on a DoD website
+The URL:https://hackerone.com/reports/184200
+CSRF : Lock and Unlock Translation
+The URL:https://hackerone.com/reports/223345
+Text Only Content Spoofing on ubermovement.com Community Page
+The URL:https://hackerone.com/reports/153095
+Design issue with webhook (several) notifications on mixmax.com
+The URL:https://hackerone.com/reports/239818
